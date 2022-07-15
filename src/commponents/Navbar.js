@@ -8,14 +8,13 @@ function Navbar() {
         className="navbar navbar-expand-lg navbar-light bg-light"
         style={{ alignItems: "center" }}
       >
-        <a href="#" className="navbar-brand">
+        <a href="/" className="navbar-brand">
           <img
-            src="E:\REACT\shopping\logo.jpg"
-            style={{ height: "28" }}
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVp5HY1LZE2sjZFh5g96wRSV2gdqwoyDfTKKM1npd4ksJy581OcPXlOmDgxpM6DkuURw&usqp=CAU"
+            style={{ height: "56px", width: "240px" }}
             alt="Shopping.com"
           />
         </a>
-
         <button
           className="navbar-toggler"
           type="button"
@@ -72,7 +71,14 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/">
-                <button className="md-3">⬇ </button>
+                <button className="md-3 ">
+                  <img
+                    className="img-fluid"
+                    style={{ border: "none" }}
+                    src="https://www.shopping.com/images/install-pwa.png"
+                    alt=""
+                  />
+                </button>
               </a>
             </li>
           </ul>

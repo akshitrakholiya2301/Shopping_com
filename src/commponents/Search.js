@@ -31,6 +31,7 @@ function Search() {
           >
             Search over a million products on Shopping.com
           </h2>
+          <input />
         </div>
       </div>
     </>
