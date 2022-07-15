@@ -3,14 +3,15 @@ import Footer from "./commponents/Footer";
 import Navbar from "./commponents/Navbar";
 import Search from "./commponents/Search";
 import Topcategories from "./commponents/Topcategories";
+import Topdeals from "./commponents/topdeals/Topdeals";
 
 function App() {
   return (
     <>
       <Navbar />
       <Search />
-      <hr></hr>
       <Topcategories />
+      <Topdeals />
       <Footer />
     </>
   );

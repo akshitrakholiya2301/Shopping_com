@@ -34,6 +34,7 @@ function Search() {
           <input />
         </div>
       </div>
+      <hr />
     </>
   );
 }
