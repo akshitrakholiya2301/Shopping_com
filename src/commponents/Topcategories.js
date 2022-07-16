@@ -27,12 +27,14 @@ function Topcategories() {
               Clothing & Accessories
             </a>
           </div>
-          <img
-            className="mb-3 "
-            style={{ height: "78px", width: "219px" }}
-            src="https://www.shopping.com/images/categories/img_1_10000000.jpg"
-            alt=""
-          />
+          <div className="img1">
+            <img
+              className="mb-3 "
+              // style={{ height: "78px", width: "219px" }}
+              src="https://www.shopping.com/images/categories/img_1_10000000.jpg"
+              alt=""
+            />
+          </div>
         </div>
         <div className="card">
           <div className="body">
@@ -43,12 +45,14 @@ function Topcategories() {
               Home & Garden
             </a>
           </div>
-          <img
-            className="mb-3 "
-            style={{ height: "78px", width: "219px" }}
-            src="https://www.shopping.com/images/categories/img_1_13000000.jpg"
-            alt=""
-          />
+          <div className="img1">
+            <img
+              className="mb-3 "
+              style={{ height: "78px", width: "219px" }}
+              src="https://www.shopping.com/images/categories/img_1_13000000.jpg"
+              alt=""
+            />
+          </div>
         </div>
         <div className="card">
           <div className="body">
@@ -59,12 +63,14 @@ function Topcategories() {
               Electronics
             </a>
           </div>
-          <img
-            className="mb-3 "
-            style={{ height: "78px", width: "219px" }}
-            src="https://www.shopping.com/images/categories/img_1_11000000.jpg"
-            alt=""
-          />
+          <div className="img1">
+            <img
+              className="mb-3 "
+              style={{ height: "78px", width: "219px" }}
+              src="https://www.shopping.com/images/categories/img_1_11000000.jpg"
+              alt=""
+            />
+          </div>
         </div>
         <div className="card">
           <div className="body">
@@ -75,12 +81,14 @@ function Topcategories() {
               Automotive
             </a>
           </div>
-          <img
-            className="mb-3 "
-            style={{ height: "78px", width: "219px" }}
-            src="https://www.shopping.com/images/categories/img_1_22000000.jpg"
-            alt=""
-          />
+          <div className="img1">
+            <img
+              className="mb-3 "
+              style={{ height: "78px", width: "219px" }}
+              src="https://www.shopping.com/images/categories/img_1_22000000.jpg"
+              alt=""
+            />
+          </div>
         </div>
         <div className="card">
           <div className="body">
@@ -91,12 +99,14 @@ function Topcategories() {
               Computers & Software
             </a>
           </div>
-          <img
-            className="mb-3 "
-            style={{ height: "78px", width: "219px" }}
-            src="https://www.shopping.com/images/categories/img_1_4.jpg"
-            alt=""
-          />
+          <div className="img1">
+            <img
+              className="mb-3 "
+              style={{ height: "78px", width: "219px" }}
+              src="https://www.shopping.com/images/categories/img_1_4.jpg"
+              alt=""
+            />
+          </div>
         </div>
         {/* </div> */}
       </div>
