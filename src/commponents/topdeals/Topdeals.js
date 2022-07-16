@@ -214,7 +214,7 @@ function Topdeals() {
           >
             Get More
           </a>
-        </div>{" "}
+        </div>
         <div className="card">
           <div className="card-body">
             <a className="card-link">

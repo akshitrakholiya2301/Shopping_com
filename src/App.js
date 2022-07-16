@@ -4,6 +4,7 @@ import Navbar from "./commponents/Navbar";
 import Search from "./commponents/Search";
 import Topcategories from "./commponents/Topcategories";
 import Topdeals from "./commponents/topdeals/Topdeals";
+import Topproducts from "./commponents/topdeals/Topproducts";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Search />
       <Topcategories />
       <Topdeals />
+      <Topproducts />
       <Footer />
     </>
   );
