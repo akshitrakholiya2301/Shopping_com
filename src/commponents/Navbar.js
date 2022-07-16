@@ -1,4 +1,5 @@
 import React from "react";
+// import { Link } from "react-router-dom";
 // import SimCardDownloadIcon from "@mui/icons-material/SimCardDownload";
 
 function Navbar() {
@@ -28,44 +29,59 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
-            <li className="nav-item dropdown">
+            <li class="nav-item dropdown">
               <a
-                className="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle"
                 href="/"
-                id="navbarDropdownMenuLink"
-                data-toggle="dropdown"
-                aria-haspopup="true"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                All catgories
+                All categories
               </a>
-              <div
-                className="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <a className="dropdown-item" href="/">
-                  Action
-                </a>
-                <a className="dropdown-item" href="/">
-                  Another action
-                </a>
-                <a className="dropdown-item" href="/">
-                  Something else here
-                </a>
-              </div>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.shopping.com/search.html?c=Clothing%20%26%20Accessories~~1_10000000"
+                  >
+                    Clothing & Accessories
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.shopping.com/search.html?c=Home%20%26%20Garden~~1_13000000"
+                  >
+                    Home & Garden
+                  </a>
+                </li>
+                {/* <li>
+                  <hr class="dropdown-divider" />
+                </li> */}
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.shopping.com/search.html?c=Electronics~~1_11000000"
+                  >
+                    Electronics
+                  </a>
+                </li>
+              </ul>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">
+              <a className="nav-link" href="/top-categories">
                 Top catgories
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">
+              <a className="nav-link" href="/top-deals">
                 Top Deals
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">
+              <a className="nav-link" href="/top-products">
                 Top Products
               </a>
             </li>
