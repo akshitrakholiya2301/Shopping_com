@@ -71,7 +71,10 @@ function Navbar() {
               </ul>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/top-categories">
+              <a
+                className="nav-link"
+                href="http://localhost:3000/#topcategories"
+              >
                 Top catgories
               </a>
             </li>

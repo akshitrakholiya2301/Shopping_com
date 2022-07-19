@@ -228,7 +228,7 @@ function Topproducts() {
           </a>
         </div>
       </div>
-      <hr />
+      <br />
     </>
   );
 }
